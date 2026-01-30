@@ -1,22 +1,27 @@
 # Programa 1: area_perimetro_circulo
-programa en Python para calcular el area y el perimetro de un circulo, dado el valor de su radio.
+programa en Python para invetir un numero de 4 cifras
 
 ## Análisis
 
 ### Variables de entrada
-- r: radio de circulo
+- n: numero a procesar o invertir
 
-### Procesamiento
-- a: area del circulo
-- p: perimetro del circulo
+### Variables de Procesamiento
+- d1: numero 1
+- d2: numero 2
+- d3: numero 3
+- d4: numero 4
+### Operaciones
+$d1 = n % 10    * 1000   
+$d2 = n // 10 % 10   * 100  
+$d3 = n // 100 % 10   * 10 
+$d4 = n // 1000       
+$invertido =d1+d2+d3+d4
 
-$a= \pi*r^2$
-
-$p= 2*\pi*r$
 
 ## Diseño
 
 ![diagrama de flujo](diagrama.png)
 
 ## Construcción
-- codigo implementado en el archivo area_perimetro_circulo.py
+- codigo implementado en el archivo invertir_numero.py
