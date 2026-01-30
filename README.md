@@ -21,7 +21,7 @@ programa en Python para invetir un numero de 4 cifras
 
 ## Diseño
 
-![diagrama de flujo](diagrama.png)
+![diagrama de flujo](diagramas.png)
 
 ## Construcción
 - codigo implementado en el archivo invertir_numero.py
